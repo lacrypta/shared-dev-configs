@@ -1,0 +1,3 @@
+{
+  "extends": "@lacrypta/typescript-config/base.json"
+}
