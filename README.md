@@ -6,11 +6,14 @@ This is a repository of packages that allow configuration to be shared between p
 
 ### Prettier Settings
 
-Add to `package.json`
+Add to `package.json` in `devDependencies` object
 
 ```json
 {
-  "prettier": "@lacrypta/prettier-config",
+  "devDependencies": {
+    "prettier": "@lacrypta/prettier-config",
+    ...
+  },
   ...
 }
 ```
@@ -36,7 +39,6 @@ module.exports = {
   ...
 };
 ```
-
 
 ## What's inside?
 
