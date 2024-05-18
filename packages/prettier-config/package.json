@@ -1,9 +1,13 @@
 {
   "name": "@lacrypta/prettier-config",
   "version": "1.0.0",
+  "private": false,
   "main": "index.json",
   "description": "La Crypta Prettier config",
   "repository": "git@github.com:lacrypta/prettier-config.git",
   "author": "La Crypta Labs",
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
 }
