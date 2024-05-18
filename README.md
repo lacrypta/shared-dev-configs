@@ -2,7 +2,11 @@
 
 This is a repository of packages that allow configuration to be shared between projects.
 
-## Using this example
+### Install
+
+```bash
+pnpm add -D @lacrypta/prettier-config @lacrypta/eslint-config @lacrypta/typescript-config
+```
 
 ### Prettier Settings
 
