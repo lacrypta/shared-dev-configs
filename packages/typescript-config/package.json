@@ -4,7 +4,6 @@
   "repository": "git@github.com:lacrypta/prettier-config.git",
   "author": "La Crypta Labs",
   "version": "1.0.0",
-  "private": true,
   "license": "MIT",
   "publishConfig": {
     "access": "public"
