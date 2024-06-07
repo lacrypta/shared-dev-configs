@@ -5,8 +5,9 @@
     "build": "turbo build",
     "dev": "turbo dev",
     "lint": "turbo lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{js,ts,tsx,md}\""
   },
+  "prettier": "@lacrypta/prettier-config",
   "devDependencies": {
     "@lacrypta/eslint-config": "workspace:*",
     "@lacrypta/typescript-config": "workspace:*",

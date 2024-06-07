@@ -1,20 +1,33 @@
-# `@azz/prettier-config`
+# `@lacrypta/prettier-config`
 
-> My personal [Prettier](https://prettier.io) config.
+> Official La Crypta [Prettier](https://prettier.io) config.
 
 ## Usage
 
 **Install**:
 
 ```bash
-$ yarn add --dev @azz/prettier-config
+$ pnpm add -D @lacrypta/prettier-config
 ```
 
 **Edit `package.json`**:
 
+Add prettier property
+
 ```jsonc
 {
   // ...
-  "prettier": "@azz/prettier-config"
+  "prettier": "@lacrypta/prettier-config",
+}
+```
+
+Add format script
+
+```jsonc
+{
+  // ...
+  "scripts": {
+    "format": "prettier --write \"**/*.{js,ts,tsx,md}\"",
+  },
 }
 ```
