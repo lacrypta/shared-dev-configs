@@ -5,7 +5,7 @@ This is a repository of packages that allow configuration to be shared between p
 ### Install
 
 ```bash
-pnpm add -D @lacrypta/prettier-config @lacrypta/eslint-config @lacrypta/typescript-config
+pnpm add -D @lacrypta/prettier-config @lacrypta/eslint-config @lacrypta/typescript-config eslint-config-prettier
 ```
 
 ### Prettier Settings
