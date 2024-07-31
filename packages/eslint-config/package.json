@@ -1,6 +1,6 @@
 {
   "name": "@lacrypta/eslint-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "La Crypta Labs",
   "files": ["library.js", "next.js", "react-internal.js"],
   "devDependencies": {
